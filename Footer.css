@@ -1,0 +1,42 @@
+.f-container{
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.secondaryText{
+    color: rgb(140, 139, 139);
+    font-size: 0.9rem;
+}
+.f-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.f-menu{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+.f-left{
+    gap: 1rem;
+}
+@media (max-width:768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container > div{
+          align-items: center!important;
+          text-align: center;
+    }
+}

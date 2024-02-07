@@ -1,0 +1,47 @@
+.authantication{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+}
+.img1{
+    width: 30rem;
+    height: 35rem;
+    margin:     50px;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.auth__Left{
+    flex: 0.5;
+    text-align: center;
+}
+.auth__right{
+    flex: 0.5;
+}
+.auth__Left>.img{
+    width: 400px;
+    margin-top: 40px;
+}
+.auth__more{
+    border: 1px solid gray;
+    padding: 20px;
+    margin-right: 30px;
+    margin-left:30px ;
+    text-align: center;
+    margin-top: 15px;
+}
+.auth__more>span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.auth__more>span>button{
+    background: 0;
+    font-weight: bolder;
+    font-size: 14px;
+    border: 0;
+    color: #3895f6;
+}
+.auth__more>span>button:hover{
+    cursor: pointer;
+}

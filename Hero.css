@@ -1,0 +1,154 @@
+.hero-container{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     padding: 1.5rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.hero-wrapper{
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    background-color: black;
+    z-index: 1;
+}
+.hero-left{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+}
+.hero-des{
+    gap: 3rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+
+}
+.hero-title{
+   position: relative;
+   z-index: 1; 
+ 
+}
+.orange-cicle{
+    height: 4rem;
+    width: 4rem;
+   background-color: orange;
+   right: 28%;
+   top: -10px;
+   z-index:-1;
+
+   
+
+    border-radius: 999px;
+    position: absolute;
+}
+.search-bar>input{
+    border: none; outline: none;
+}
+.search-bar{
+    background-color: white;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.3 74);
+     padding: 0.5rem 1rem;
+     justify-content: space-between;
+     height: 50%;
+     width: 100%;
+     
+
+    
+}
+.stats{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+.stat>:nth-child(1):last-child{
+    color: orange;
+}
+.plus{
+    color: orange;
+}
+.tt{
+    color: rgb(140, 139, 139);
+   
+    font-size: 0.9rem;
+}
+
+
+
+.stat{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.des{
+    color: rgb(140, 139, 139);
+    
+}
+.loca{
+    color: blue;
+    size: 32;
+}
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+ }
+.img1{
+    width: 30rem;
+    height: 35rem;
+    margin:     50px;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.img1>img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:640px) {
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .img1{
+        width: 95%;
+        height: 25rem;
+        
+    }
+    .stats{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    
+}
+
+    
+
+
+
